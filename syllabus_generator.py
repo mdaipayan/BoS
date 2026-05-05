@@ -200,11 +200,11 @@ def render_latex(data: SyllabusData) -> str:
         \hline
         Teaching Scheme & Examination Scheme \\
         \hline
-        Teaching Hrs / Week : {_escape(data.teaching_hours)} & Duration of End Semester Exam : {_escape(data.exam_duration)} \\
+        Teaching Hrs / Week : {_escape(data.teaching_hours)} & Duration of End Semester Exam     : {_escape(data.exam_duration)} \\
         \hline
-        Tutorials Hrs / Week : {_escape(data.tutorial_hours)} & Internal Evaluation \hspace{2.4cm}: {_escape(data.internal_evaluation)} \\
+        Tutorials Hrs / Week : {_escape(data.tutorial_hours)} & Internal Evaluation              : {_escape(data.internal_evaluation)} \\
         \hline
-        Practical Hrs / Week : {_escape(data.practical_hours)} & End Semester Examination \hspace{1cm}: {_escape(data.end_semester_evaluation)} \\
+        Practical Hrs / Week : {_escape(data.practical_hours)} & End Semester Examination        : {_escape(data.end_semester_evaluation)} \\
         \hline
     \end{{tabularx}}
 \end{{center}}

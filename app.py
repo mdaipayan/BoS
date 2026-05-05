@@ -79,7 +79,8 @@ with col1:
 
 with col2:
     st.subheader("Lab Details")
-    data.lab_title = st.text_input("Lab Title", value=data.lab_title)
+    # Replace line 82 with:
+    data.lab_title = st.text_input("Lab Title", value=getattr(data, 'lab_title', ""))
     lab1, lab2 = st.columns(2)
     with lab1:
         data.lab_total_credits = st.text_input("Lab Credits", value=data.lab_total_credits)

@@ -1,2 +1,4 @@
 reportlab
 streamlit
+pylatex
+jinja2
